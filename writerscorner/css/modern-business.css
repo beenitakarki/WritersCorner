@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+#banner-section {
+  background-image: linear-gradient(
+      rgba(202, 202, 202, 0.4),
+      rgba(202, 202, 202, 0.4)
+    ),
+    url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  max-width: 100%;
+  margin-top: -5px;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1123px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+  color: rgb(43, 43, 43);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Bif tablets to 1200px (widht smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 14%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"] {
+  background-color: #0275d8;
+  border: 1px solid #0275d8;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #0275d8;
+  color: #0275d8;
+}
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #0069d9;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: "lato", "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "lato", "Arial", sans-serif;
+  font-weight: 700;
+}
+a {
+  font-weight: 400;
+}
+p {
+  font-weight: 400;
+}
+
+.btn-group--login a {
+  margin-right: 20px !important;
+}
+
+#most-liked-section {
+  background-image: linear-gradient(
+      rgba(175, 175, 175, 0.384),
+      rgba(75, 74, 74, 0.541)
+    ),
+    url(../images/5.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height: 40vh;
+  max-width: 100%;
+  margin-top: -5px;
+}
+
+.most-liked {
+  position: absolute;
+  width: 1123px;
+  top: 27%;
+  margin: 0;
+  transform: translate(50%, -50%);
+}
+
+.most-liked h1 {
+  color: rgb(73, 73, 73);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "lato";
+}
+
+#trending-section {
+  background-image: linear-gradient(
+      rgba(175, 175, 175, 0.384),
+      rgba(75, 74, 74, 0.541)
+    ),
+    url(../images/5.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height: 40vh;
+  max-width: 100%;
+  margin-top: -5px;
+}
+
+.trending-post {
+  position: absolute;
+  width: 1123px;
+  top: 27%;
+  margin: 0;
+  transform: translate(50%, -50%);
+}
+
+.trending-post h1 {
+  color: rgb(73, 73, 73);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "lato";
+}
+
+.fa-heart-o {
+  color: rgb(250, 59, 59);
+  cursor: pointer;
+  margin: 15px;
+}
+
+.fa-heart-o::after {
+  color: rgb(250, 59, 59);
+  cursor: pointer;
+  margin: 15px;
+}
+.fa-heart {
+  color: rgb(250, 59, 59);
+  cursor: pointer;
+  margin: 15px;
+}
+.fa-heart::after {
+  color: rgb(250, 59, 59);
+  cursor: pointer;
+  margin: 15px;
+}
